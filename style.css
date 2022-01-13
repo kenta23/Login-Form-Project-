@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/ales-nesetril-Im7lZjxeLhg-unsplash\ \(1\).jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 56px;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 40vw;
+    margin-left: 30%;
+    margin-top: 5%;
+    border-radius: 15px;
+    background-color:  rgba(250,250,250,0.1);
+    box-shadow: 2px 5px 9px black;
+}
+
+.form-title {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin: auto;
+    font-weight: bolder;
+    color: rgba(250, 250, 250, 0.9);
+
+}
+
+
+.main {
+   text-align: center;  
+}
+.main input[type="Email"], input[type="Password"], button{
+    padding: 10px 15px;
+    width: 20vw;
+    outline: none;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    margin: 15px 10px;
+    transition: all 0.3s ease;   
+    text-align: center;
+}
+
+::placeholder {
+    color: gray;
+    margin-left: 10px;
+    font-size: 14px;
+}
+input:hover {
+    box-shadow: 2px 2px 5px rgba(65, 59, 62, 0.2);
+    background-color: #cfd0da;   
+}
+
+
+.btn {
+    background-color: #24252a;
+    font-size: 17px;
+    color: white;
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(65, 59, 62, 0.9);
+    background-color: #768382;
+}
+
+i {
+    font-size: 25px;
+    position: absolute;
+    color: black;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+
+
+form a {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+    text-decoration: none;   
+    color: rgba(250, 250, 245,0.9);
+    font-weight: 800;
+    transition: all 0.6 ease-in;
+}
+form a:hover {
+    color: rgba(250, 250, 250, 0.3);
+}
